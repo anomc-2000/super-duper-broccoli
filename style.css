@@ -1,18 +1,25 @@
 #Login{
+    
     float: left;
     background-color: blueviolet; 
     border-radius: 0.5cm;
     width: 10cm;
     height: 10cm;
     align-content: center;
+    margin-left: 2cm;
 }
-#Senha{
-    width: 20%;
-    height: 100px;
-    background-color: aquamarine;
-    float: center;
-    margin: 20 px;
+.Email{
+   text-align: center;
 }
+.Senha{
+    text-align: center;
+    margin-top: 1cm;
+}
+.Butão{
+    text-align: center;
+}
+
+
 
 
 
