@@ -1,5 +1,10 @@
 #Login{
-    
+    float: left;
+    background-color: blueviolet; 
+    border-radius: 0.5cm;
+    width: 10cm;
+    height: 10cm;
+    align-content: center;
 }
 #Senha{
     width: 20%;
@@ -8,4 +13,5 @@
     float: center;
     marrgin: 20 px;
 }
+
 
