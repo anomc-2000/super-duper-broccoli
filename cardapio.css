@@ -8,20 +8,33 @@
     margin: 1cm;
     border-radius: 0.5cm;
     background-color: chocolate;
+    border-color: chocolate;
 }
 #botão2{
     font-size: 1.5cm;
     margin: 1cm;
     border-radius: 0.5cm;
     background-color: chocolate;
+    border-color: chocolate;
 }
 #botão3{
     font-size: 1.5cm;
     margin: 1cm;
     border-radius: 0.5cm;
     background-color: chocolate;
+    border-color: chocolate;
 }
-#perfil{
-    font-size: 1.5cm;
-    border-radius: cm;
+
+#pesquisa{
+    font-size: xx-large;
+    border-radius: 1.5cm;
+    border-color: aliceblue;
+    float: right;
+}
+#opções{
+    float: right;
+}
+#coisas{
+    background-color: aliceblue;
+    text-align: center;
 }
