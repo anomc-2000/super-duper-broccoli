@@ -1,5 +1,8 @@
 <style>
-  body {
+  .container-fluid{
+    background-color: brown;
+  }
+body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #ff0000;
   }
@@ -23,6 +26,7 @@
     border-color: #f1f1f1;
   }
   .carousel-inner img {
+
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
