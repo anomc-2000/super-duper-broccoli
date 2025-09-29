@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Bootstrap Theme The Band</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="/super-duper-broccoli-main/estilos/carrinho.css"> -->
+    <!-- <link rel="stylesheet" href="./estilos/cardapio.css"> -->
+    <style>
+        * {
+            font-family: fantasy;
+        }
+     </style>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</head>
+
+<body class="bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark  border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#myPage">Pizzaria Fazbear</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cardapio.html" >CARDÁPIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#band">SELEÇÃO ESPECIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tour">RESERVA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTATOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            VEJA MAIS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="carrinho.html">Carrinho</a></li>
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Ajuda</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="d-flex flex-column container">
+        <div class="d-flex flex-row  p-4 gap-4 text-light border-bottom">
+            <img  class="object-fit-fill" src="https://www.bing.com/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?w=244&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+            <div>
+                <b>
+                    <p class="fs-4">Pizza</p>
+                </b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima omnis nostrum, cupiditate laboriosam doloribus dignissimos praesentium ullam quo, reiciendis quas enim, voluptatibus error vel at unde eius atque! Eos, nesciunt!</p>
+                <p class="fs-5">R$ 50,00</p>
+                <div class="d-flex flex-row gap-2 align-items-end">
+                    <div>
+                        <label for="quantity" class="form-label mb-0">Quantidade:</label>
+                        <input class="form-control" type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                    <button class="btn btn-primary">
+                        Adicionar ao carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row  p-4 gap-4 text-light border-bottom">
+            <img  class="object-fit-fill" src="https://www.bing.com/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?w=244&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+            <div>
+                <b>
+                    <p class="fs-4">Pizza</p>
+                </b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima omnis nostrum, cupiditate laboriosam doloribus dignissimos praesentium ullam quo, reiciendis quas enim, voluptatibus error vel at unde eius atque! Eos, nesciunt!</p>
+                <p class="fs-5">R$ 50,00</p>
+                <div class="d-flex flex-row gap-2 align-items-end">
+                    <div>
+                        <label for="quantity" class="form-label mb-0">Quantidade:</label>
+                        <input class="form-control" type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                    <button class="btn btn-primary">
+                        Adicionar ao carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row  p-4 gap-4 text-light border-bottom">
+            <img  class="object-fit-fill" src="https://www.bing.com/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?w=244&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+            <div>
+                <b>
+                    <p class="fs-4">Pizza</p>
+                </b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima omnis nostrum, cupiditate laboriosam doloribus dignissimos praesentium ullam quo, reiciendis quas enim, voluptatibus error vel at unde eius atque! Eos, nesciunt!</p>
+                <p class="fs-5">R$ 50,00</p>
+                <div class="d-flex flex-row gap-2 align-items-end">
+                    <div>
+                        <label for="quantity" class="form-label mb-0">Quantidade:</label>
+                        <input class="form-control" type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                    <button class="btn btn-primary">
+                        Adicionar ao carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-between align-items-center p-4">
+            <p class="fs-3 text-light me-4">
+                Total: R$ <span id="total">0,00</span>
+            </p>
+            <button class="btn btn-success btn-lg">
+                Finalizar compra
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

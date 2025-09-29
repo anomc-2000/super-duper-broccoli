@@ -1,0 +1,29 @@
+.pizzas {
+    display: flex;
+    /* margin-top: 24px; */
+    background-color: brown; 
+    border-radius: 20px; 
+} 
+
+.rounded {
+    border-radius: 20px;
+    border: 50px;
+}  
+
+.btn1 {
+    /* position: relative; */
+    left: 80%;
+    bottom: 77%;
+} 
+
+.btn2{
+    /* position: relative; */
+    left: 80%;
+    bottom: 61%;
+} 
+
+.btn3 {
+    /* position: relative; */
+    left: 80%;
+    bottom: 44%;
+} 

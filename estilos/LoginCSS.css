@@ -1,0 +1,27 @@
+#Login{
+    
+    float: left;
+    background-color: rgb(199, 42, 42); 
+    border-radius: 0.5cm;
+    width: 15cm;
+    height: 15cm;
+    align-content: center;
+    margin-left: 2cm;
+}
+.Email{
+   text-align: center;
+}
+.Senha{
+    text-align: center;
+    margin-top: 1cm;
+}
+.Butão{
+    text-align: center;
+    margin-top: 2cm;
+}
+
+
+
+
+
+
