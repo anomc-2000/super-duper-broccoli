@@ -2,3 +2,13 @@
     background-color: brown;
     border-radius: 10px;
 }
+h2{
+    font-family: fantasy;
+    color: orange;
+}
+.form-group{
+    font-palette: orange;
+}
+#Email{
+    color: orange;
+}
